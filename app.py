@@ -7,7 +7,7 @@ MODEL_PATH = 'mlmodels/model.pkl'
 SCALER_X_PATH = 'mlmodels/scaler_x.pkl'
 SCALER_Y_PATH = 'mlmodels/scaler_y.pkl'
 
-app = Flask(name)
+app = Flask(__name__)
 model = joblib.load(MODEL_PATH)
 sc_x = joblib.load(SCALER_X_PATH)
 sc_y = joblib.load(SCALER_Y_PATH)
@@ -27,5 +27,5 @@ def predict():  # put application's code here
 
     return str(result[0][0])
 
-if name == 'main':
+if __name__ == '__main__':
     app.run(debug = True, port = 5444, host = '0.0.0.0')
