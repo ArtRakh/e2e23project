@@ -39,4 +39,4 @@ Steps taken:
   predict_price - function activating right after running app.py to get a point prediction with set of input parametres:
   open_plan=0&rooms=4&area=180&renovation=15
   ```
-  # In conclusion, there is a simple backend algorithm for implementing the house price prediction by means of virtual machine and docker images that improve reproducibility of the algorithm.
+  #### In conclusion, there is a simple backend algorithm for implementing the house price prediction by means of virtual machine and docker images that improve reproducibility of the algorithm.
