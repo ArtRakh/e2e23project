@@ -6,5 +6,6 @@ Steps taken:
 - building a [docker image](https://hub.docker.com/r/artrakh/e2e23_class_predictor) for the method to have an opportunity of running it within any environments
 - checking the correctness of the method by Postman, running the image from the virtual machine with the public IP: 51.250.20.152
 
-Hurray! ![image](https://github.com/ArtRakh/e2e23project/assets/114469896/b289d4d5-3a4f-4f12-acc1-57275de8944a)
+Hurray!
+![image](https://github.com/ArtRakh/e2e23project/assets/114469896/b289d4d5-3a4f-4f12-acc1-57275de8944a)
 
